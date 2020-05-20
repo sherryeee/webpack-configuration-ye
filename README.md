@@ -15,9 +15,18 @@ webpack搭建
 
 #### 使用说明
 
-1. xxxx
-2. xxxx
-3. xxxx
+步骤：
+
+1. 配置 `/kit_config/webpack_global_config.json` 文件（webpack 的配置参数）
+    - 具体字段含义见该文件里的注释
+1. 配置 `/kit_config/app_global_config.json` 文件（app 的配置参数）
+    - 具体字段含义见该文件里的注释
+
+1. 使用 `npm run start` 启动 webpack-dev-server，进行开发
+1. 正式发布的步骤：
+    - 使用 `npm run build` 打包代码
+  
+
 
 #### 参与贡献
 
